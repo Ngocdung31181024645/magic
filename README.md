@@ -1,4 +1,5 @@
 About
+
 Magic is designed to provide magic objects that have global Getters and Setters, Designed to let you write even better Promise implementations.
 
 Magic Objects are not usable as traditional objects, but meant to be used as a tool to bridge into the gap of 'catch all' getter/setters that are not avail to V8 JS Land by default.
@@ -8,11 +9,13 @@ Magic is designed to implement similar functionality as PHP's __set and __get me
 MagicObjects by themselves are useless, its up to you as a developer to implement them in a useful way, primarily for Promise based implementations.
 
 Requirements
+
 This functionality is done through V8 C++ calls and MUST BE COMPILED. If you compiled Node.JS from source, you likely already have all dependencies.
 
 To compile the needed C++ Libraries, simply go to the folder you have installed Magic and type make makelibs. If you are a developer working on a fork of Magic, then simply type make to not have build files automatically cleaned up, speeding up subsequent compiles.
 
 Install
+
 Magic is ready to be installed from NPM, but may also be manually added to your project with git submodules or a clone. First CD to your project root. Ensure a directory named node_modules exists.
 
 Install with NPM:
